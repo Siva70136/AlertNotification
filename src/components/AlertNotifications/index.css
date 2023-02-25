@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  font-size: 20px;
+}
+.heading {
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.warning {
+  color: orange;
+}
+.info {
+  color: blue;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+.desc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cross {
+  align-self: flex-end;
+}
